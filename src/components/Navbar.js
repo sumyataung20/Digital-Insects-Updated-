@@ -46,9 +46,9 @@ function Navbar() {
       }}
       className="navposition"
     >
-      <div className="container">
+      <div>
         <nav className="navbar navbar-expand-lg navbar-light ">
-          <div className="container-fluid">
+          <div className="container">
             <a className="navbar-brand logo-container" href="/">
               <img
                 src={logo}

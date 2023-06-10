@@ -13,7 +13,7 @@ const Service = () => {
           </div>
           <div className="svcontent">
             <p>
-              We offers comprehensive solutions tailored to your unique business
+              We offer comprehensive solutions tailored to your unique business
               needs, including web design, development, and optimization to
               create stunning, user-friendly websites that drive results.
             </p>
