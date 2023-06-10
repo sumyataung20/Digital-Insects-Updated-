@@ -1031,12 +1031,12 @@ opacity: 1;
 }
 
 .tablecontainer{
-  padding: 80px 0;
+  padding: 50px 0;
   background-color: #1D1D1D;
 }
 
 .tabletitle{
-  color: var(--text-color1);
+  color: var(--text-color4);
   font-family: "Font3";
   text-shadow: 3px -3px 5px #121212;
   text-align: center;

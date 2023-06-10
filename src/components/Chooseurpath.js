@@ -12,7 +12,8 @@ const ChooseYourPath = () => {
             <h2 className="successtitle">Choose Your Path To Success</h2>
             <p className="successcontent">
               We offer a range of customizable packages to cater to the specific
-              needs and goals of businesses.
+              needs and goals of businesses. Take your business to the next
+              level with our meticulously crafted website packages.
             </p>
           </div>
 
@@ -229,13 +230,13 @@ const ChooseYourPath = () => {
           </div>
         </div>
 
-        <div className="" style={{ marginTop: "150px" }}>
+        <div className="" style={{ marginTop: "50px" }}>
           <div className="container-xl">
             <div className="row">
-              <h5 className="tabletitle">
+              {/* <h5 className="tabletitle">
                 Take your business to the next level with our meticulously
                 crafted website packages.
-              </h5>
+              </h5> */}
             </div>
 
             <div className="table-container">
