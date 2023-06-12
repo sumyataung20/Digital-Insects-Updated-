@@ -1,17 +1,39 @@
 import React from "react";
+import { useEffect } from "react";
 import email from "../images/noun-email-5767311 1.png";
 import phone from "../images/noun-phone-5767444 1.png";
+
 import facebook from "../images/vecteezy_facebook-logo-png-facebook-icon-transparent-png_18930481_433 2.png";
 const Contact = () => {
+  useEffect(() => {
+    const handleScroll = () => {
+      const getScrollPoint = window.scrollY;
+
+      // if (getScrollPoint >= 6200 && getScrollPoint < 7500) {
+      if (getScrollPoint >= 4000 || getScrollPoint >= 6700) {
+        document.querySelector(".contacttitle1").classList.add("mytop");
+      } else {
+        document.querySelector(".contacttitle1").classList.remove("mytop");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <div className="contactcontainer" id="contactus">
       <div className="container">
-        <div className="contact">Get In Touch With Us</div>
-        <p className="contactcnt">
-          We would love to hear from you! Feel free to reach out to us through
-          the provided contact form or email address, and our team will get back
-          to you as soon as possible.
-        </p>
+        <div className="contacttitle1">
+          <div className="contact">Get In Touch With Us</div>
+          <p className="contactcnt ">
+            We would love to hear from you! Feel free to reach out to us through
+            the provided contact form or email address, and our team will get
+            back to you as soon as possible.
+          </p>
+        </div>
         <div className="custom-container">
           <div className="row">
             <div className="col-12 col-sm-12 col-md-4  mb-sm-4 mb-md-3 mb-3 pricingcards">

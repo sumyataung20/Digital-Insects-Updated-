@@ -1,6 +1,26 @@
 import React from "react";
 import aboutusimg from "../images/aboutus.png";
+import { useEffect } from "react";
 const Aboutus = () => {
+  useEffect(() => {
+    const handleScroll = () => {
+      const getScrollPoint = window.scrollY;
+
+      if (getScrollPoint >= 2900 || getScrollPoint >= 4600) {
+        document.querySelector(".aboutusimg").classList.add("abtimg");
+        document.querySelector(".abtcontent").classList.add("abttext");
+      } else {
+        document.querySelector(".aboutusimg").classList.remove("abtimg");
+        document.querySelector(".abtcontent").classList.remove("abttext");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <div className="aboutuscontainer" id="aboutus">
       <div className="container">

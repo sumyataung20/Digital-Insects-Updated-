@@ -50,7 +50,7 @@ function Navbar() {
     };
   }, []);
   return (
-    <div className="navposition">
+    <div className="navposition" style={{ position: "fixed" }}>
       <div>
         <nav
           className="navbar navbar-expand-lg navbar-light "

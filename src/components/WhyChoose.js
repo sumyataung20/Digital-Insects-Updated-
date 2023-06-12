@@ -7,7 +7,7 @@ const WhyChoose = () => {
       const getScrollPoint = window.scrollY;
       console.log(getScrollPoint);
 
-      if (getScrollPoint >= 3500) {
+      if (getScrollPoint >= 5200 || getScrollPoint >= 3500) {
         document.querySelector(".infotexts1").classList.add("myright");
         document.querySelector(".infopics1").classList.add("myright");
         document.querySelector(".infotitle1").classList.add("myright1");
