@@ -1476,14 +1476,14 @@ opacity: 1;
 
 .myright{
   animation-name: myright;
-  animation-duration: 3s;
+  animation-duration: 2s;
   
 
   
 }
 @keyframes myright{
   from{
-      transform: translateY(50px);
+      transform: translateY(150px);
       opacity: 0
       
   }
@@ -1497,7 +1497,7 @@ opacity: 1;
 
 .myright1{
   animation-name: myright1;
-  animation-duration: 3s;
+  animation-duration: 2s;
   
 }
 @keyframes myright1{
@@ -1531,7 +1531,7 @@ opacity: 1;
 
 .myleft{
   animation-name: myleft;
-  animation-duration: 3s;
+  animation-duration: 2s;
   
 }
 @keyframes myleft{
@@ -1559,7 +1559,7 @@ opacity: 1;
 
 @keyframes mytop{
   from{
-      transform: translateY(-50px);
+      transform: translateY(-80px);
       opacity: 0;
       
   }
@@ -1573,13 +1573,13 @@ opacity: 1;
 
 .mytop{
   animation-name: mytop;
-  animation-duration: 4s;
+  animation-duration: 2s;
 }
 
 
 @keyframes mybottom{
   0%{
-      transform: translateY(50px);
+      transform: translateY(100px);
       opacity: 0;
       
   }
@@ -1593,12 +1593,12 @@ opacity: 1;
 
 .mybottom{
   animation-name: mybottom;
-  animation-duration: 4s;
+  animation-duration: 2s;
 }
 
 @keyframes mytopimg{
   0%{
-      transform: translateY(-50px);
+      transform: translateY(-100px);
       opacity: 0;
       
   }
@@ -1612,13 +1612,13 @@ opacity: 1;
 
 .mytopimg{
   animation-name: mytopimg;
-  animation-duration: 4s;
+  animation-duration: 2s;
 } 
 
 
 @keyframes abtimg{
   0%{
-      transform: translateX(-50px);
+      transform: translateX(-80px);
       opacity: 0;
       
   }
@@ -1637,7 +1637,7 @@ opacity: 1;
 
 @keyframes abttext{
   0%{
-      transform: translateX(50px);
+      transform: translateX(80px);
       opacity: 0;
       
   }
@@ -1651,5 +1651,5 @@ opacity: 1;
 
 .abttext{
   animation-name: abttext;
-  animation-duration: 3s
+  animation-duration: 2s
 }

@@ -9,11 +9,11 @@ const Benefits = () => {
       if (getScrollPoint >= 10) {
         document.querySelector(".infotexts").classList.add("myright");
         document.querySelector(".infopics").classList.add("myright");
-        document.querySelector(".infotitle").classList.add("myright1");
+        // document.querySelector(".infotitle").classList.add("myright1");
       } else {
         document.querySelector(".infotexts").classList.remove("myright");
         document.querySelector(".infopics").classList.remove("myright");
-        document.querySelector(".infotitle").classList.remove("myright1");
+        // document.querySelector(".infotitle").classList.remove("myright1");
       }
     };
 
