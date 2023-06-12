@@ -14,7 +14,7 @@ const Contact = () => {
         </p>
         <div className="custom-container">
           <div className="row">
-            <div className="col-12 col-sm-12 col-md-4  mb-sm-4 mb-md-3 mb-3">
+            <div className="col-12 col-sm-12 col-md-4  mb-sm-4 mb-md-3 mb-3 pricingcards">
               <div
                 className="card w-100 h-100"
                 style={{ backgroundColor: "#030303" }}
@@ -42,7 +42,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="col-12 col-sm-12 col-md-4  mb-sm-4 mb-md-3 mb-3">
+            <div className="col-12 col-sm-12 col-md-4  mb-sm-4 mb-md-3 mb-3 pricingcards">
               <div
                 className="card w-100 h-100"
                 style={{ backgroundColor: "#030303" }}
@@ -73,7 +73,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-sm-12 col-md-4  mb-sm-4 mb-md-3 mb-3">
+            <div className="col-12 col-sm-12 col-md-4  mb-sm-4 mb-md-3 mb-3 pricingcards">
               <div
                 className="card w-100 h-100"
                 style={{ backgroundColor: "#030303" }}

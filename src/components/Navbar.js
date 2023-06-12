@@ -5,6 +5,20 @@ import logo from "../images/Digital Insects Gold 1.png";
 
 function Navbar() {
   useEffect(() => {
+    const myNav = document.getElementById("navbaranimation");
+
+    window.onscroll = function () {
+      if (
+        document.body.scrollTop >= 300 ||
+        document.documentElement.scrollTop >= 300
+      ) {
+        myNav.classList.add("nav-colored");
+        myNav.classList.remove("nav-transparent");
+      } else {
+        myNav.classList.add("nav-transparent");
+        myNav.classList.remove("nav-colored");
+      }
+    };
     const links = document.querySelectorAll(".navbar-nav,.nav-link");
     const navbarCollapse = document.querySelector(".navbar-collapse");
 
@@ -36,18 +50,12 @@ function Navbar() {
     };
   }, []);
   return (
-    <div
-      style={{
-        backgroundColor: "var(--primary-color)",
-        height: "75px",
-        position: "fixed",
-        width: "100%",
-        zIndex: 1,
-      }}
-      className="navposition"
-    >
+    <div className="navposition">
       <div>
-        <nav className="navbar navbar-expand-lg navbar-light ">
+        <nav
+          className="navbar navbar-expand-lg navbar-light "
+          id="navbaranimation"
+        >
           <div className="container">
             <a className="navbar-brand logo-container" href="/">
               <img
@@ -85,7 +93,7 @@ function Navbar() {
                 <li
                   className="nav-item active"
                   style={{
-                    padding: "10px 20px",
+                    padding: "5px 20px",
                   }}
                 >
                   <a
@@ -101,7 +109,7 @@ function Navbar() {
                 <li
                   className="nav-item"
                   style={{
-                    padding: "10px 20px",
+                    padding: "5px 20px",
                   }}
                 >
                   <a
@@ -117,7 +125,7 @@ function Navbar() {
                 <li
                   className="nav-item"
                   style={{
-                    padding: "10px 20px",
+                    padding: "5px 20px",
                   }}
                 >
                   <a
@@ -134,7 +142,7 @@ function Navbar() {
                 <li
                   className="nav-item"
                   style={{
-                    padding: "10px 20px",
+                    padding: "5px 20px",
                   }}
                 >
                   <a
@@ -151,7 +159,7 @@ function Navbar() {
                 <li
                   className="nav-item"
                   style={{
-                    padding: "10px 20px",
+                    padding: "5px 20px",
                   }}
                 >
                   <a

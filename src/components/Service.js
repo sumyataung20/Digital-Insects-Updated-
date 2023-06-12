@@ -23,7 +23,7 @@ const Service = () => {
         <div className="row">
           <div className="col-12 col-sm-10 col-md-6 col-lg-3 card-container mx-auto mb-xs-4 mb-sm-5 mb-md-3">
             <div
-              className="card w-80 h-100"
+              className="card w-80 h-100 pricingcards2"
               style={{
                 backgroundColor: "rgba(35, 34, 34, 0.67)",
                 border: "1px solid rgba(235, 171, 97, 0.81)",
@@ -47,7 +47,7 @@ const Service = () => {
 
           <div className="col-12 col-sm-10 col-md-6 col-lg-3 mx-auto card-container mb-xs-4 mb-sm-4 mb-md-3">
             <div
-              className="card w-80 h-100"
+              className="card w-80 h-100 pricingcards2"
               style={{
                 backgroundColor: "rgba(35, 34, 34, 0.67)",
                 border: "1px solid rgba(235, 171, 97, 0.81)",
@@ -73,7 +73,7 @@ const Service = () => {
 
           <div className="col-12 col-sm-10 col-md-6 col-lg-3 mx-auto card-container mb-xs-4 mb-sm-4 mb-md-3">
             <div
-              className="card w-80 h-100"
+              className="card w-80 h-100 pricingcards2"
               style={{
                 backgroundColor: "rgba(35, 34, 34, 0.67)",
                 border: "1px solid rgba(235, 171, 97, 0.81)",
@@ -105,7 +105,7 @@ const Service = () => {
 
           <div className="col-12 col-sm-10 col-md-6 col-lg-3 mx-auto card-container mb-xs-4 mb-sm-4 mb-md-3">
             <div
-              className="card w-80 h-100"
+              className="card w-80 h-100 pricingcards2"
               style={{
                 backgroundColor: "rgba(35, 34, 34, 0.67)",
                 border: "1px solid rgba(235, 171, 97, 0.81)",

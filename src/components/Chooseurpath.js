@@ -18,7 +18,7 @@ const ChooseYourPath = () => {
           </div>
 
           <div className="row d-flex justify-content-center align-items-center">
-            <div className="col-12 col-sm-12 col-md-10 col-lg-4 mx-auto card-container2">
+            <div className="col-12 col-sm-12 col-md-10 col-lg-4 mx-auto card-container2 pricingcards">
               <div
                 className="card w-100 h-100"
                 style={{
@@ -82,7 +82,7 @@ const ChooseYourPath = () => {
               </div>
             </div>
 
-            <div className="col-12 col-sm-12 col-md-10 col-lg-4 mx-auto mb-xs-4 mb-sm-5 mb-md-5 card-container2">
+            <div className="col-12 col-sm-12 col-md-10 col-lg-4 mx-auto mb-xs-4 mb-sm-5 mb-md-5 card-container2 pricingcards">
               <div
                 className="card w-100 h-100"
                 style={{
@@ -164,7 +164,7 @@ const ChooseYourPath = () => {
               </div>
             </div>
 
-            <div className="col-12 col-sm-12 col-md-10 col-lg-4 mx-auto mb-xs-4 mb-sm-5 mb-md-5 card-container2">
+            <div className="col-12 col-sm-12 col-md-10 col-lg-4 mx-auto mb-xs-4 mb-sm-5 mb-md-5 card-container2 pricingcards">
               <div
                 className="card w-100 h-100"
                 style={{

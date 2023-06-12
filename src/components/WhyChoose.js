@@ -1,16 +1,43 @@
 import React from "react";
+import { useEffect } from "react";
 import whychooseimg from "../images/Lovepik_com-450103092-Illustration of software development in modern glyph style 1.png";
 const WhyChoose = () => {
+  useEffect(() => {
+    const handleScroll = () => {
+      const getScrollPoint = window.scrollY;
+      console.log(getScrollPoint);
+
+      if (getScrollPoint >= 3500) {
+        document.querySelector(".infotexts1").classList.add("myright");
+        document.querySelector(".infopics1").classList.add("myright");
+        document.querySelector(".infotitle1").classList.add("myright1");
+        // } else if (getScrollPoint >= 5000) {
+        //   document.querySelector(".infotexts1").classList.add("myright");
+        //   document.querySelector(".infopics1").classList.add("myright");
+        //   document.querySelector(".infotitle1").classList.add("myright1");
+      } else {
+        document.querySelector(".infotexts1").classList.remove("myright");
+        document.querySelector(".infopics1").classList.remove("myright");
+        document.querySelector(".infotitle1").classList.remove("myright1");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <div className="whychoose">
       <div className="container">
         <div className="row">
-          <div className="whychoosetitle">
+          <div className="whychoosetitle infotitle1">
             Why Choose <span className="name">"DIGITAL INSECTS"</span>
           </div>
           <div className="whychoosecontent">
             <div className="row">
-              <div className="whychooseimg col-12 col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center align-items-center">
+              <div className="whychooseimg col-12 col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center align-items-center infopics1">
                 <img
                   src={whychooseimg}
                   alt="whychoose"
@@ -19,7 +46,7 @@ const WhyChoose = () => {
               </div>
 
               {/* <div className="mt-lg-2"> */}
-              <ul className="whychoosecnt col-12 col-sm-12 col-md-12 col-lg-6 mx-auto mt-lg-5">
+              <ul className="whychoosecnt col-12 col-sm-12 col-md-12 col-lg-6 mx-auto mt-lg-5 infotexts1">
                 <li>
                   <span className="whychoose1">Unmatched Expertise</span>: Our
                   team consists of experienced professionals who possess a deep
