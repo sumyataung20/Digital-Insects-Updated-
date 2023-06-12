@@ -157,7 +157,7 @@ function Navbar() {
                 </li>
 
                 <li
-                  className="nav-item"
+                  className="nav-item navitemlast"
                   style={{
                     padding: "5px 20px",
                   }}
