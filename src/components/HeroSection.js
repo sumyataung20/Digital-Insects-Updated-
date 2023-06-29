@@ -3,26 +3,6 @@ import React from "react";
 import "../App.css";
 import heroimage from "../images/9 2.png";
 const HeroSection = () => {
-  // useEffect(() => {
-  //   const banner1 = document.getElementById("banner1");
-  //   const banner2 = document.getElementById("banner2");
-
-  // banner1.classList.add("mybottom");
-  // banner2.classList.add("mytopimg");
-
-  // window.onscroll = function () {
-  //   if (
-  //     document.body.scrollTop >= 1 ||
-  //     document.documentElement.scrollTop >= 1
-  //   ) {
-  //     banner1.classList.add("mybottom");
-  //     banner2.classList.add("mytopimg");
-  //   } else {
-  //     banner1.classList.remove("mybottom");
-  //     banner2.classList.remove("mytopimg");
-  //   }
-  // };
-  // }, []);
   return (
     <div className="container1" id="home">
       <div className="container">

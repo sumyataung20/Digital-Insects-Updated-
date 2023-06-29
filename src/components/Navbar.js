@@ -53,7 +53,7 @@ function Navbar() {
     <div className="navposition" style={{ position: "fixed" }}>
       <div>
         <nav
-          className="navbar navbar-expand-lg navbar-light "
+          className="navbar navbar-expand-xl navbar-light "
           id="navbaranimation"
         >
           <div className="container">
@@ -91,7 +91,7 @@ function Navbar() {
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
               <ul className="navbar-nav">
                 <li
-                  className="nav-item active"
+                  className="nav-item"
                   style={{
                     padding: "5px 20px",
                   }}
@@ -119,7 +119,7 @@ function Navbar() {
                       marginRight: "10px",
                     }}
                   >
-                    Services
+                    Service
                   </a>
                 </li>
                 <li

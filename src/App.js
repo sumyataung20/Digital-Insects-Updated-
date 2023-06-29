@@ -4,7 +4,6 @@ import HeroSection from "./components/HeroSection";
 import Benefits from "./components/Benefits";
 import Service from "./components/Service";
 import ChooseYourPath from "./components/Chooseurpath";
-// import Table from "./components/Table";
 
 import Aboutus from "./components/Aboutus";
 import Contact from "./components/Contactus";
@@ -20,7 +19,7 @@ function App() {
       <Benefits />
       <Service />
       <ChooseYourPath />
-      {/* <Table /> */}
+
       <Aboutus />
       <WhyChoose />
       <Contact />

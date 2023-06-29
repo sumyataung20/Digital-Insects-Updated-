@@ -5,7 +5,7 @@ const WhyChoose = () => {
   useEffect(() => {
     const handleScroll = () => {
       const getScrollPoint = window.scrollY;
-      console.log(getScrollPoint);
+      // console.log(getScrollPoint);
 
       if (getScrollPoint >= 5200 || getScrollPoint >= 3500) {
         document.querySelector(".infotexts1").classList.add("myright");
