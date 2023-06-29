@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import "../App.css";
+
 import logo from "../images/Logo.png";
 
 function Navbar() {
